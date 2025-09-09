@@ -384,7 +384,7 @@ echo -e "$COLOR1╰════════════════════�
 
 echo -e "$COLOR1╭═══════════════════════════════════════════════════╮${NC}"
 echo -e "$COLOR1│ $NC ${WH}Versi Script  ${COLOR1}: ${WH}$(cat /opt/.ver) Latest Version${NC}$COLOR1"
-echo -e "$COLOR1│ $NC ${WH}Author        ${COLOR1}: ${WH}HOKAGE LEGEND STORE${NC}$COLOR1"
+echo -e "$COLOR1│ $NC ${WH}Author        ${COLOR1}: ${WH}BUBUN KZP CONFIG${NC}$COLOR1"
 echo -e "$COLOR1│ $NC ${WH}Client        ${COLOR1}: ${WH}$client_name${NC}"
 echo -e "$COLOR1│ $NC ${WH}Sisa Hari     ${COLOR1}: ${WH}$days_remaining hari${NC}"
 echo -e "$COLOR1│ $NC ${WH}Expire Date   ${COLOR1}: ${WH}$exp_date${NC}"
