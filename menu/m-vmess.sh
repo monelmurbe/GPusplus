@@ -42,7 +42,7 @@ check_ip_and_get_info() {
 # =============================================
 
 # Ambil data dari GitHub dengan timeout
-permission_file=$(curl -sL --connect-timeout 10 https://github.com/hokagelegend9999/ijin/raw/refs/heads/main/gnome)
+permission_file=$(curl -sL --connect-timeout 10 https://raw.githubusercontent.com/kope12/ijin/refs/heads/main/akses)
 
 # Validasi file permission
 if [ -z "$permission_file" ]; then
