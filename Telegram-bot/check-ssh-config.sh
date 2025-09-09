@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # =================================================================
-#        Skrip Cek Konfigurasi User SSH untuk Hokage-BOT (Lebih Pintar)
+#        Skrip Cek Konfigurasi User SSH untuk Bubun-BOT (Lebih Pintar)
 # =================================================================
 # Deskripsi: Skrip ini bisa menangani dua jenis akun dengan mencari
 #            log detail terlebih dahulu, lalu file .txt sebagai alternatif.
