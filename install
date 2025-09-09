@@ -66,7 +66,7 @@ while true; do
     fi
 
     # Menggunakan curl untuk memeriksa apakah client_name ada dalam file permission.txt
-    permission_file=$(curl -s https://raw.githubusercontent.com/hokagelegend9999/ijin/refs/heads/main/gnome)
+    permission_file=$(curl -s https://raw.githubusercontent.com/kope12/ijin/refs/heads/main/akses)
     
     # Mengambil IP_VPS juga untuk validasi di izin.txt
     IP_VPS=$(curl -s https://ipinfo.io/ip) # Pastikan ini mengambil IP publik
@@ -300,7 +300,7 @@ apt-get purge apparmor apparmor-utils -y >/dev/null 2>&1
 clear
 
 # --- Instalasi Tools Awal ---
-wget https://raw.githubusercontent.com/hokagelegend9999/genom/main/TOOLS/tools.sh -O tools.sh &> /dev/null
+wget https://raw.githubusercontent.com/kope12/GPus/refs/heads/main/TOOLS/tools.sh -O tools.sh &> /dev/null
 chmod +x tools.sh
 bash tools.sh
 start=$(date +%s)
@@ -316,13 +316,13 @@ wget https://raw.githubusercontent.com/XTLS/Xray-core/main/app/stats/command/com
 
 cd
 clear
-wget https://raw.githubusercontent.com/hokagelegend9999/genom/main/TOOLS/limit.sh -O limit.sh && chmod +x limit.sh && ./limit.sh
+wget https://raw.githubusercontent.com/kope12/GPus/refs/heads/main/TOOLS/limit.sh -O limit.sh && chmod +x limit.sh && ./limit.sh
 clear
 
 # --- Fungsi Instalasi Modul ---
 res3() {
     echo -e "${GREEN}    Memulai instalasi SSH WS / OpenVPN...${NC}"
-    wget https://raw.githubusercontent.com/hokagelegend9999/genom/main/SYSTEM/ssh-vpn.sh -O ssh-vpn.sh
+    wget https://raw.githubusercontent.com/kope12/GPus/refs/heads/main/SYSTEM/ssh-vpn.sh -O ssh-vpn.sh
     chmod +x ssh-vpn.sh
     ./ssh-vpn.sh
     sudo systemctl enable --now chrony.service
@@ -332,7 +332,7 @@ res3() {
 
 res4() {
     echo -e "${GREEN}    Memulai instalasi XRAY...${NC}"
-    wget https://raw.githubusercontent.com/hokagelegend9999/genom/main/SYSTEM/ins-xray.sh -O ins-xray.sh
+    wget https://raw.githubusercontent.com/kope12/GPus/refs/heads/main/SYSTEM/ins-xray.sh -O ins-xray.sh
     chmod +x ins-xray.sh
     ./ins-xray.sh
     clear
@@ -340,7 +340,7 @@ res4() {
 
 res5() {
     echo -e "${GREEN}    Memulai instalasi WEBSOCKET SSH...${NC}"
-    wget https://raw.githubusercontent.com/hokagelegend9999/genom/main/WEBSOCKET/insshws.sh -O insshws.sh
+    wget https://raw.githubusercontent.com/kope12/GPus/refs/heads/main/WEBSOCKET/insshws.sh -O insshws.sh
     chmod +x insshws.sh
     ./insshws.sh
     clear
@@ -348,7 +348,7 @@ res5() {
 
 res6() {
     echo -e "${GREEN}    Memulai instalasi BACKUP MENU...${NC}"
-    wget https://raw.githubusercontent.com/hokagelegend9999/genom/main/SYSTEM/set-br.sh -O set-br.sh
+    wget https://raw.githubusercontent.com/kope12/GPus/refs/heads/main/SYSTEM/set-br.sh -O set-br.sh
     chmod +x set-br.sh
     ./set-br.sh
     clear
@@ -356,7 +356,7 @@ res6() {
 
 res7() {
     echo -e "${GREEN}    Memulai instalasi OHP...${NC}"
-    wget https://raw.githubusercontent.com/hokagelegend9999/genom/main/WEBSOCKET/ohp.sh -O ohp.sh
+    wget https://raw.githubusercontent.com/kope12/GPus/refs/heads/main/WEBSOCKET/ohp.sh -O ohp.sh
     chmod +x ohp.sh
     ./ohp.sh
     clear
@@ -364,7 +364,7 @@ res7() {
 
 res8() {
     echo -e "${GREEN}    Memulai pengunduhan EXTRA MENU...${NC}"
-    wget https://raw.githubusercontent.com/hokagelegend9999/genom/main/menu/update.sh -O update.sh
+    wget https://raw.githubusercontent.com/kope12/GPus/refs/heads/main/menu/update.sh -O update.sh
     chmod +x update.sh
     ./update.sh
     clear
@@ -372,7 +372,7 @@ res8() {
 
 res9() {
     echo -e "${GREEN}    Memulai pengunduhan SLOWDNS...${NC}"
-    wget https://raw.githubusercontent.com/hokagelegend9999/genom/main/SYSTEM/slowdns.sh -O slowdns.sh
+    wget https://raw.githubusercontent.com/kope12/GPus/refs/heads/main/SYSTEM/slowdns.sh -O slowdns.sh
     chmod +x slowdns.sh
     ./slowdns.sh
     clear
@@ -383,7 +383,7 @@ res10() {
     mkdir -p /usr/local/kyt/
     wget -q -O /usr/local/kyt/udp-mini "${REPO}Fls/udp-mini"
      chmod +x /usr/local/kyt/udp-mini
-    wget https://raw.githubusercontent.com/hokagelegend9999/genom/main/SYSTEM/udp-custom.sh -O udp-custom.sh
+    wget https://raw.githubusercontent.com/kope12/GPus/refs/heads/main/SYSTEM/udp-custom.sh -O udp-custom.sh
     chmod +x udp-custom.sh
     bash udp-custom.sh
     clear
@@ -542,7 +542,7 @@ if [ ! -f "/etc/log-create-user.log" ]; then
 fi
 history -c
 
-serverV=$( curl -sS https://raw.githubusercontent.com/hokagelegend9999/genom/main/TOOLS/versi )
+serverV=$( curl -sS https://raw.githubusercontent.com/kope12/GPus/refs/heads/main/TOOLS/versi )
 echo "$serverV" > /opt/.ver
 
 aureb=$(cat /home/re_otm)
