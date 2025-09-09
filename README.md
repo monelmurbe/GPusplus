@@ -22,6 +22,13 @@ rm update.sh
 wget https://raw.githubusercontent.com/kope12/GPus/refs/heads/main/menu/update.sh && chmod +x update.sh && ./update.sh
 ```
 
+### SETELAH INSTALL REMOTE DENGAN MENGGUNAKAN PORT : 200 (Untuk menghindari serangan DDOS yang umum nya menyasar ke port 22 )
+- kalau mau pakai port 22
+- edit di vps :
+  ```
+  nano /etc/ssh/sshd_config
+  ```
+
 
 
 ===================================================================================
