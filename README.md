@@ -1,7 +1,14 @@
 # GENOM SCRIPT VPS INSTALL
 
 
-# 1. INSTALL SCRIPT GPlus
+### Cara  Install 
+
+# 1. Daftarkan dahulu ip yang sudah di pointing di cloudflare ke link ijin berikut :
+
+   ---->>>   https://github.com/kope12/ijin/blob/main/akses
+   
+
+## 2. INSTALL SCRIPT GPlus (nama harus sama dengan yang di daftarakan di ijin)
 
 ```
  wget -q https://raw.githubusercontent.com/kope12/GPus/refs/heads/main/install && chmod +x install  && ./install
