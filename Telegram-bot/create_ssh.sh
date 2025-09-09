@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # =================================================================
-#           Skrip Pembuatan Akun SSH untuk Hokage-BOT
+#           Skrip Pembuatan Akun SSH untuk Bubun-BOT
 #           Disesuaikan dengan Format VPS
 # =================================================================
 
