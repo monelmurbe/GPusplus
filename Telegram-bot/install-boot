@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # =================================================================
-#        Installer Final Hokage-BOT (Versi Sinkronisasi GitHub v2)
+#        Installer Final Bubun-BOT (Versi Sinkronisasi GitHub v2)
 # =================================================================
 #
 # Diperbaiki untuk mengatasi masalah 'externally-managed-environment'
@@ -31,7 +31,7 @@ check_root() {
 show_header() {
     clear
     echo -e "${GREEN}=====================================================${NC}"
-    echo -e "${GREEN}==        Installer Final Hokage-BOT (GitHub Sync)   ==${NC}"
+    echo -e "${GREEN}==        Installer Final Bubun-BOT (GitHub Sync)   ==${NC}"
     echo -e "${GREEN}=====================================================${NC}"
     echo
 }
