@@ -616,7 +616,7 @@ exp_date=$(echo "$permission_file" | grep -w "$client_name" | awk '{print $3}')
 
 MESSAGE="\`\`\`
 ❏━━━━━━━━━━━━━━━━━━━━━━━━━━❏
- 🤖 Hokage Store Project 🤖
+ 🤖 BUBUN KZP CONFIG 🤖
 ❏━━━━━━━━━━━━━━━━━━━━━━━━━━❏
 ❖ Status      : Active
 ❖ User VPS    : $USERVPS
