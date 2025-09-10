@@ -8,7 +8,7 @@ Ikuti langkah-langkah berikut agar instalasi berjalan lancar.
 ## 📌 1. Daftarkan IP VPS
 Pastikan **IP VPS yang sudah di-pointing di Cloudflare** didaftarkan terlebih dahulu pada link ijin berikut:  
 
-👉 [Daftar IP di sini](https://github.com/kope12/ijin/blob/main/akses)
+👉 [Daftar IP di sini](https://github.com/monelmurbe/ijin/blob/main/akses)
 
 ---
 
@@ -18,7 +18,7 @@ Pastikan **IP VPS yang sudah di-pointing di Cloudflare** didaftarkan terlebih da
 Jalankan perintah berikut di VPS:
 
 ```bash
-wget -q https://raw.githubusercontent.com/kope12/GPus/refs/heads/main/install \
+wget -q https://raw.githubusercontent.com/monelmurbe/GPusplus/refs/heads/main/install \
  && chmod +x install \
  && ./install
 ```
@@ -30,7 +30,7 @@ Untuk memperbarui script, jalankan perintah berikut:
 ```
 cd /root
 rm update.sh
-wget https://raw.githubusercontent.com/kope12/GPus/refs/heads/main/menu/update.sh \
+wget https://raw.githubusercontent.com/monelmurbe/GPusplus/refs/heads/main/menu/update.sh \
  && chmod +x update.sh \
  && ./update.sh
 ```
